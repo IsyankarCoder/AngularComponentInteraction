@@ -15,6 +15,8 @@ import { VoteTakerComponent } from './votetaker.component';
 import { CountDownTimerComponent } from './countdown-timer.component';
 import { CountDownParentComponent } from './countdown-parent.component';
 import {ParentViewChildComponent} from './countdown-viewchild.component';
+import {MissionControlService} from './missioncontrolservice';
+import {AstranautComponent} from './astranaut.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,9 @@ import {ParentViewChildComponent} from './countdown-viewchild.component';
     VoteTakerComponent,
     CountDownTimerComponent,
     CountDownParentComponent,
-    ParentViewChildComponent
+    ParentViewChildComponent,
+    AstranautComponent,
+    MissionControlService
 
   ],
   imports: [
