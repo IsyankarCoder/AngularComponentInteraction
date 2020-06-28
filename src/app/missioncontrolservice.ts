@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MissionService } from './missionservice';
-import {AstranautComponent} from './astranaut.component'
+
 
 
 @Component({

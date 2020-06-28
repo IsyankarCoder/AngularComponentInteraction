@@ -17,6 +17,7 @@ import { CountDownParentComponent } from './countdown-parent.component';
 import {ParentViewChildComponent} from './countdown-viewchild.component';
 import {MissionControlService} from './missioncontrolservice';
 import {AstranautComponent} from './astranaut.component';
+import {EventComponent} from './app-event.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +33,8 @@ import {AstranautComponent} from './astranaut.component';
     CountDownParentComponent,
     ParentViewChildComponent,
     AstranautComponent,
-    MissionControlService
+    MissionControlService,
+    EventComponent
 
   ],
   imports: [
